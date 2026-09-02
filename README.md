@@ -61,7 +61,7 @@ export DYTWIN_EMBEDDING_MODEL_DIR=/path/to/bge-small-zh-v1___5
 
 ## Data
 
-The full `SocialTwin` dataset (about 616 MB) is not committed to GitHub. Download it from Zenodo (DOI: 10.5281/zenodo.22218365) and place user CSV files under:
+The full `SocialTwin` dataset (about 587 MB uncompressed; the Zenodo release provides a ~234 MB zip) is not committed to GitHub. Download it from Zenodo (DOI: 10.5281/zenodo.22218365) and place user CSV files under:
 
 ```text
 data/SocialTwin/
