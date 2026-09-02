@@ -1,0 +1,51 @@
+# Python
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.venv/
+venv/
+
+# Generated experiment outputs
+outputs/
+**/memory/
+**/frozen_memory/
+**/shared_training_memory/
+*.log
+*.log.jsonl
+*.jsonl
+*.index
+
+# Full datasets and model weights
+data/SocialTwin/
+models/
+*.pt
+*.pth
+*.ckpt
+*.safetensors
+*.bin
+
+# Local secrets
+.env
+*.env
+config.local.yaml
+
+# Temporary files
+*.tmp
+*.bak
+*.swp
+~$*
+.DS_Store
+Thumbs.db
+
+# Office and LaTeX build artifacts
+*.aux
+*.bbl
+*.blg
+*.fdb_latexmk
+*.fls
+*.log
+*.out
+*.synctex.gz
+*.toc

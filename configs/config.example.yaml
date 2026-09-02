@@ -1,0 +1,22 @@
+# Example DyTwin configuration.
+# The current CLI reads most settings from command-line arguments and
+# environment variables; this file documents recommended values.
+
+llm:
+  model: "THUDM/GLM-4-9B-0414"
+  api_url: "https://api.siliconflow.cn/v1/chat/completions"
+  api_key_env: "DYTWIN_API_KEY"
+  temperature: 0.2
+  max_tokens: 1024
+  seed: 42
+
+embedding:
+  local_model: "BAAI/bge-small-zh-v1.5"
+  model_dir_env: "DYTWIN_EMBEDDING_MODEL_DIR"
+
+experiment:
+  data_dir: "data/SocialTwin"
+  result_dir: "outputs"
+  max_posts: 100
+  memory_top_k: 5
+  memory_similarity_threshold: 0.5
